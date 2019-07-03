@@ -1,0 +1,23 @@
+uuid: 1ccc9c07-a1fe-4ac3-8213-974371e2d7d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.search_filter
+  module:
+    - facets
+  theme:
+    - bartik
+id: searchfilter
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:search_filter'
+settings:
+  id: 'facet_block:search_filter'
+  label: 'Search filter'
+  provider: facets
+  label_display: visible
+  block_id: searchfilter
+visibility: {  }
