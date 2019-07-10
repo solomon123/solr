@@ -8,8 +8,8 @@
 #/docroot/libraries/
 
 # Ignore solr log and configuration changes 
-solr/server/logs/solr.log
-solr/server/logs/solr_gc.log
+# solr/server/logs/solr.log
+# solr/server/logs/solr_gc.log
 solr/server/*
 
 # Ignore sensitive information
