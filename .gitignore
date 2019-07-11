@@ -10,7 +10,7 @@
 # Ignore solr log and configuration changes 
 # solr/server/logs/solr.log
 # solr/server/logs/solr_gc.log
-/solr/server/*
+# /solr/server/*
 
 # Ignore sensitive information
 /docroot/sites/*/settings.php
